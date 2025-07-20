@@ -102,3 +102,9 @@ if __name__ == '__main__':
     polling_thread.start()
     polling_shedule.start()
 
+    
+@bot.message_handler(commands=['get_my_score'])
+def Handle_score(message):
+    
+    
+
